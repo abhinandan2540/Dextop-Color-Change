@@ -1,0 +1,104 @@
+*{
+    font-family: "Roboto", serif;
+}
+header h1{
+    justify-self: center;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    font-weight: 1000;
+
+}
+
+#color1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: crimson;
+    padding-left: 25px;
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+
+#color2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:chocolate;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: none;
+}
+#color3{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    background-color:cornflowerblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+#color4{
+    height: 100px;
+    width: 170px;
+    border: 2px solid black;
+    background-color:darkolivegreen;
+    padding-left: 25px;
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: none;
+}
+#color5{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:deeppink;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: none;
+}
+#color6{
+    height: 100px;
+    width: 140px;
+    border: 2px solid black;
+    background-color:greenyellow;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.colors{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5%;
+}
